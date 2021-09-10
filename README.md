@@ -17,7 +17,7 @@ This excercise focused on specific dates and timelines but can be modified to an
 
 ### 1. Collect the Data:
 
-Using the Pandas read_csv function and the Path module, we imported the data from bitstamp.csv and coinbase.csv file, and create a DataFrame called bitstamp and coinbase, respectivley. We set the DatetimeIndex as the timestamp column.
+Using the Pandas read_csv function and the Path module, we imported the data from bitstamp.csv and coinbase.csv file, and create a DataFrame called ```bitstamp``` and ```coinbase```, respectivley. We set the DatetimeIndex as the timestamp column.
 
 Using the `.head()` and `.tail()` function we can view the first 5 and last 5 rows of the bitstamp dataset and see that it contains historical trade data from 2018-01-01 through 2018-03-31. 
 
