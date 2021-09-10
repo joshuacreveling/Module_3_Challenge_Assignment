@@ -19,17 +19,17 @@ This excercise focused on specific dates and timelines but can be modified to an
 
 Using the Pandas read_csv function and the Path module, we imported the data from bitstamp.csv and coinbase.csv file, and create a DataFrame called ```bitstamp``` and ```coinbase```, respectivley. We set the DatetimeIndex as the timestamp column.
 
-Using the `.head()` and `.tail()` function we can view the first 5 and last 5 rows of the bitstamp dataset and see that it contains historical trade data from 2018-01-01 through 2018-03-31. 
+Using the `.head()` and `.tail()` function we can view the first 5 and last 5 rows of the ```bitstamp``` dataset and see that it contains historical trade data from 2018-01-01 through 2018-03-31. 
 
 ![bitstamp_head_tail](./Screenshots/bitstamp_head_tail.PNG)
 
-Likewise, using the same technique for the coinbase dataset, we can see that it contains historical trade data from 2018-01-01 through 2018-03-31.
+Likewise, using the same technique for the ```coinbase``` dataset, we can see that it contains historical trade data from 2018-01-01 through 2018-03-31.
 
 ![coinbase_head_tail](./Screenshots/coinbase_head_tail.PNG)
 
 ### 2. Prepare the Data
 
-For the bitstamp and coinbase DataFrame's, the following was completed to properly clean the data for analysis: 
+For the ```bitstamp``` and ```coinbase``` DataFrame's, the following was completed to properly clean the data for analysis: 
 
     -  Drop all NaN or missing values.
     -  Remove all "$" from the values.
@@ -38,7 +38,7 @@ For the bitstamp and coinbase DataFrame's, the following was completed to proper
 
 ### 3. Analyze the Data
 
-To analyze the data in the bitstamp and coinbase DataFrames, we created a new dataframe with only the rows we wanted to focus on.  For this excercise, that row was the ```"Close"``` values.
+To analyze the data in the ```bitstamp``` and ```coinbase``` DataFrames, we created a new dataframe with only the rows we wanted to focus on.  For this excercise, that row was the ```"Close"``` values.
 
 Using Pandas, summary statistics and data plots were generated to get a overview understanding of the data.  With this overview, we were then able to focus our attention into specific dates to evaluate the opportunities for arbitrage investing ocurring early, middle and late in the dataset. 
 
