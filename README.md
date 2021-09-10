@@ -66,7 +66,7 @@ This project leverages JupyterLab Version 3.0.14 in association with Anaconda di
 
 ## Installation Guide
 
-The dependencies used are included when using Anaconda distribution and Conda package manager to manage the Python environment.  No prior installation is required.  
+The dependencies used are included when using Anaconda distribution and Conda package manager to manage the Python environment.  No additional installations are required.  
 
 ---
 
